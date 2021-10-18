@@ -1,4 +1,19 @@
 body {
-    font-style: italic;
-    background-color: aquamarine;
+    margin: 0;
+}
+
+header h1 {
+    margin: 0;
+    background-image: url(../images/apple-pie.jpg);
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
 }
