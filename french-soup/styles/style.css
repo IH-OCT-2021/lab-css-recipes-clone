@@ -1,19 +1,22 @@
 body{
-  margin: 20px;
+  margin: 100px;
   align-content: center;
 }
 
 .soup{
 height:auto;
-width: 70%;
-padding-left: 15%;
+width: 100%;
 }
 
 .title{
 position:absolute;
-top:50%;
-left:50%;
-transform: translate(-50%, -50%);
+top:79%;
+left:34%;
+/* transform: translate(-50%, -50%); */
+font-family: 'Comforter',cursive;
+color: White;
+font-size: 80px;
+padding-left: 50px;
 }
 
 hr{
@@ -22,4 +25,20 @@ hr{
 
 h2{
   color:gray;
+}
+
+.list-dash{
+
+}
+.intro{
+  text-indent: 50px;
+  text-align: justify;
+  margin: 30, 50, 0,50;
+}
+
+.info,
+prep{
+display: flex;
+justify-content: center;
+align-self: center;
 }
