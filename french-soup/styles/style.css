@@ -10,35 +10,46 @@ width: 100%;
 
 .title{
 position:absolute;
-top:79%;
-left:34%;
-/* transform: translate(-50%, -50%); */
+top:50%;
+left:45%;
+transform: translate(-50%, -50%);
 font-family: 'Comforter',cursive;
 color: White;
 font-size: 80px;
 padding-left: 50px;
 }
 
-hr{
+hr,h2{
   color:gray;
 }
 
-h2{
-  color:gray;
-}
-
-.list-dash{
+.list-dash > li{
+  /* list-style-type: none; */
+  content: '-';
 
 }
 .intro{
-  text-indent: 50px;
-  text-align: justify;
   margin: 30, 50, 0,50;
+  display: block;
+  text-align: justify;
+  padding: 3vw;
 }
 
-.info,
-prep{
-display: flex;
-justify-content: center;
-align-self: center;
+ul{
+  list-style-type: none;
+
+}
+ul li:before{
+  content:'\2014'
+}
+
+ol {
+  counter-reset: list;
+}
+ol > li {
+  list-style: none;
+}
+ol > li:before {
+  content: counter(list, number) ") ";
+  counter-increment: list;
 }
